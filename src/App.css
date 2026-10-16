@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f1f5f9;
+  color: #1e293b;
+}
+
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #334155;
+}
+
+h2 {
+  color: #1e293b;
+}
+
+.card,
+.city {
+  background: white;
+  padding: 25px;
+  margin: 20px 0 35px;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px #00000010;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.photos img {
+  width: 250px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+@media (max-width: 600px) {
+  .photos img {
+    width: 100%;
+  }
+}
